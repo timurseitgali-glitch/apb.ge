@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills find \"discovery interview\")",
+      "Bash(npx skills find \"frontend design\")",
+      "Bash(npx skills add parcadei/continuous-claude-v3@discovery-interview -g -y)",
+      "Bash(npx skills add anthropics/skills@frontend-design -g -y)",
+      "Read(//Users/arzuhan/.agents/skills/discovery-interview/**)",
+      "Read(//Users/arzuhan/.agents/skills/frontend-design/**)",
+      "Read(//Users/arzuhan/.claude/skills/**)",
+      "Read(//Users/arzuhan/.agents/skills/**)",
+      "Read(//Users/arzuhan/.claude/**)",
+      "Bash(npx skills find \"fullstack developer\")",
+      "Bash(npx skills add shubhamsaboo/awesome-llm-apps@fullstack-developer -g -y)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npx create-next-app@latest apb --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npm install next-intl @sanity/client @sanity/image-url next-sanity lucide-react clsx)",
+      "Bash(npm install leaflet react-leaflet @types/leaflet)",
+      "Bash(npx next build)",
+      "Bash(lsof -i :3001)",
+      "Bash(npm install sanity)",
+      "Bash(git init)",
+      "Bash(git branch -m main)",
+      "Bash(git add .gitignore .env.local.example README.md eslint.config.mjs next-env.d.ts next.config.ts package.json package-lock.json postcss.config.mjs tsconfig.json public/ src/)",
+      "Bash(git commit:*)",
+      "Bash(vercel --yes --prod)",
+      "Bash(vercel --prod)",
+      "Bash(vercel --prod --force)",
+      "Bash(find \"/Users/arzuhan/Projects/MCN/All Property Batumi/apb/src\" -name \"page.tsx\" -type f -exec grep -l \"button.*Filter\\\\|button.*CTA\\\\|search\" {} ;)"
+    ],
+    "additionalDirectories": [
+      "/Users/arzuhan/Projects/MCN/All Property Batumi/thoughts/shared"
+    ]
+  }
+}
